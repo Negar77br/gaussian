@@ -1,4 +1,5 @@
-#P B3LYP G-311+G(2d,2p) Opt Freq
+%Chk=ch4.chk
+#P B3LYP 6-311+G(2d,2p) Opt Freq
 
 CH4 calculation
 
