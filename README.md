@@ -22,6 +22,9 @@ I have personally used both avogadro and gaussview softwares for creating xyz co
 
 After you're done running your calc using the command `sbatch name.slurm`, you will see a file created called name.out which will be your output. If the calculations were ran successfuly you should see a "normal termination" somewhere in your code along with all the parameters (rotational constants, etc) that were calculated. 
 
+Once you have your output file, in order to extract all the frequencies, you can use the freq.bash file and call it with the following command to create a folder with all the frequencies. 
+`bash freq.bash file.out > file_freq_list.dat`
+
 To transfer this file to your local machine, make sure to log off the cluster first by simply running the command `exit` or ctrl+C (i think this should work as well but not sure), and then run this command:
 `scp <YourNetID>@adroit.princeton.edu:/home/nb6082/name.out /Users/username/Desktop`
 
