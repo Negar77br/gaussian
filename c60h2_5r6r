@@ -5,7 +5,7 @@
 %chk = c60h2_5r6r_b3lyp_6-31g_freq
 #T B3LYP/6-31g opt freq(hpmodes, Raman)
 
-cs 5r6r isomer, addition across a hexagonal bond
+cs 5r6r isomer, addition between a 5 and 6 membered rings
 
 0 1
  C                  2.97000912   -1.78751339    0.00000000
